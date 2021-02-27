@@ -17,7 +17,7 @@
 Na cvičeniach budú študenti riešiť 3 zadania.
 * Prvé zadanie za 11 bodov
 * Druhé zadanie za 10 bodov
-* Tretie zadanie za 10 bodov
+* Tretie zadanie za 10 bodov  
 Spolu za zadania je možné získať 31 bodov.
 
 

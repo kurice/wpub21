@@ -14,7 +14,7 @@
 * `hospital`: `name`, `e-mail`, `phone`
 * `head`: `name`
 * `department`: `name`, `description`, `numberOfRooms`, `features`, `head` reference
-* `room`: `name`, `description`, `features`, `department` reference
+* `room`: `name`, `description`, `features`, `department` reference   
 Atribúty použite iba na referencie. Inak použite elementy.
 Použite iba `CDATA` a `#PCDATA` pre hodnoty a obsah.
 Rozšírte zodpovedajúci XML dokument, tak aby obsahoval: 1x hospital, 1x head, 1x department a 2x room.
