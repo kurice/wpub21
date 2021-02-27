@@ -30,9 +30,9 @@ Rešpektujte poradie, `country` je nepovinné. Ak nie je `country` uvedené, pot
 
 6. Upravte DTD aj XML: `address`, `email` a `phone` v `hospitals` smú byť v ľubovoľnom poradí. Ak `features` (v `departments` a `rooms`) sú špecifikované, potom musia byť aspoň 2, najviac však 5. 
 
-7. Rozšírte DTD aj XML tak, aby `rooms` mohli obsahovať `records`. Každý `record` obsahuje `date` a `text` (ďalšiu textovú informáciu, napr. `<date>2021-02-28</date><text>Dezinfekcia vykonaná</text>`), alebo sekvenciu aspoň jedného vnoreného záznamu (nested `record`).
+7. Rozšírte DTD aj XML tak, aby element `room` mohol obsahovať elementy `record`. Každý `record` obsahuje `date` a `text` (ďalšiu textovú informáciu, napr. `<date>2021-02-28</date><text>Dezinfekcia vykonaná</text>`), alebo sekvenciu ďalších vnorených (nested) elementov `record` (aspoň jedného).
 
-8. Upravte a rozšírte DTD aj XML. Pridajte atribút `language` koreňovému elementu. Hodnota musí byť fixná, a to 'EN' alebo 'SK' (podľa toho, aký jazyk ste zvolili pre obsah vášho XML dokumentu). Miestnostiam `room` pridajte atribút `comfort`, pričom povolené hodnoty sú `A`, `B`, `C`, `D`, `E`, alebo `F`. Predovlená hodnota je `F`. Ďalej, referencia `head` v `department` bude odteraz nepovinná. 
+8. Upravte a rozšírte DTD aj XML. Pridajte atribút `language` koreňovému elementu. Hodnota musí byť fixná, a to 'EN' alebo 'SK' (podľa toho, aký jazyk ste zvolili pre obsah vášho XML dokumentu). Miestnostiam `room` pridajte atribút `comfort`, pričom povolené hodnoty sú `A`, `B`, `C`, `D`, `E`, alebo `F`. Predvolená hodnota je `F`. Ďalej, referencia `head` v `department` bude odteraz nepovinná. 
 
 
 
