@@ -8,9 +8,9 @@
 
 ## Hodnotenie
 **Zadania:** 31 (11+10+10) bodov  
-**3 krátke testy:** 9 (3+3+3) bodov
+**3 krátke testy:** 9 (3+3+3) bodov   
 **Praktický test:** 10 bodov (ak bude online výučba aj po 8. týždni, test nebude a body budú prenesené ku skúške)   
-**Požadované minimum:** 25 bodov, resp. 20 bodov (bez praktického testu) 
+**Požadované minimum:** 25 bodov, resp. 20 bodov (bez praktického testu)  
 
 
 ## Semestrálne zadania
@@ -34,5 +34,5 @@ Predpokladaný termín: 8. týždeň semestra.
 
 ## Harmonogram zadaní
 
-* **Odovzdanie 1. zadania - prvá časť: 10.3. 2021 23:59 AIS (5 bodov)
+* **Odovzdanie 1. zadania - prvá časť:** 10.3. 2021 23:59 AIS (5 bodov)
  
