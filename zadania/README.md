@@ -9,7 +9,7 @@ Na cvičeniach budú študenti riešiť 3 zadania.
 Každý študent si vymyslí originálnu tému - reálny systém (napr. knižnica, databáza filmov).
 Vytvorte si (ako pomôcku) model systému reprezentovaný class diagramom (min. 5 entít). 
 
-Pre daný model definujte DTD (Document Type Definition) alebo XSD (XML Schema). Vytvorte XML dokument, ktorý reprezentuje danú schému (model). Vaše riešenie musí zmysluplne modelovať zvolenú realitu. XML dokument musí byť validný voči DTD.
+Pre daný model definujte DTD (Document Type Definition) alebo XSD (XML Schema). Vytvorte XML dokument, ktorý reprezentuje danú schému (model). Vaše riešenie musí zmysluplne modelovať zvolenú realitu. XML dokument musí byť validný voči DTD (XSD).
 
 **DTD musí obsahovať všetky tieto konštrukcie:**
 * elementy (prázdné, textové),
