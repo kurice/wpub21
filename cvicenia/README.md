@@ -17,7 +17,7 @@
 * `room`: `name`, `description`, `features`, `department` reference   
 Atribúty použite iba na referencie. Inak použite elementy.
 Použite iba `CDATA` a `#PCDATA` pre hodnoty a obsah.
-Rozšírte zodpovedajúci XML dokument, tak aby obsahoval: 1x hospital, 1x head, 1x department a 2x room.
+Rozšírte zodpovedajúci XML dokument tak, aby obsahoval: 1x hospital, 1x head, 1x department a 2x room.
 
 4. Upravte oboje, DTD aj XML tak, aby opis (`description`) oddelenia (`department`) obsahoval referenciu na `room`, napr.: ... `<roomReference roomName="C5">…</roomReference>` ... Ďalej, premenujte element `description` v elementoch `room` na `data`. Element `data` bude obsahovať štruktúrovaný opis (description) - ľubovoľné XML fragmenty.
 
