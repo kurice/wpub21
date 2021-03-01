@@ -2,7 +2,7 @@
 
 ## Cvičenia
 * štvrtok, 16:00-17:40
-* štvrtok, 18:00-18:40
+* štvrtok, 18:00-19:40
 
 **Cvičiaci:** Ing. Eduard Kuric, PhD. (eduard.kuric[at]stuba.sk) 
 
