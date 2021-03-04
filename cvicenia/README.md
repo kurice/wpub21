@@ -35,7 +35,44 @@ Rešpektujte poradie, `country` je nepovinné. Ak nie je `country` uvedené, pot
 8. Upravte a rozšírte DTD aj XML. Pridajte atribút `language` koreňovému elementu. Hodnota musí byť fixná, a to 'EN' alebo 'SK' (podľa toho, aký jazyk ste zvolili pre obsah vášho XML dokumentu). Miestnostiam `room` pridajte atribút `comfort`, pričom povolené hodnoty sú `A`, `B`, `C`, `D`, `E`, alebo `F`. Predvolená hodnota je `F`. Ďalej, referencia `head` v `department` bude odteraz nepovinná. 
 
 
-
 **Nástroje**:
 * VS Code rozšírenie: https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml  
 * Online nástroj pre (DTD): https://www.xmlvalidation.com/  
+
+
+## Cvičenie 2 (4.3.) ## 
+
+**Pokračovanie XML + DTD úlohy:** 
+9. Upravte a rozšírte DTD aj XML. Pridajte unikátne identifikátory k `heads`, `departments` a `rooms`, napr. element `head` bude mať identifikátor idHead="h1". Transformujte všetky existujúce referencie z mien (names) na tieto nové identifikátory, použite údajové typy `ID` a `IDREF`. Vyskúšajte narušiť referenčnú integritu.
+
+10. Upravte a rozšírte DTD aj XML. Vložte nasledujúci fragment do opisu (element `description`) niektorej z miestnosti (element `room`) tak, aby nebol interpretovaný ako XML. Použite pre to existujúce znakové entity (napr. pre znak '<' entitu &lt;).
+`<button class="q-btn">Click</button>`
+Ďalej, deklarujte novú znakovú entitu pre horný index (superscript) dvojky (Unicode U+00B2 (178)). Použite túto entitu v opise (description) predmetnej miestnosti (room). [XML entities](https://www.w3resource.com/xml/entities.php)
+
+11. Upravte a rozšírte DTD aj XML. Vložte nasledujúci fragment do opisu (element `description`) niektorej z miestností (element `room`) pomocou sekcie `CDATA`:
+`<button class="q-btn">Click</button>`
+Ďalej, pridajte komentáre na "vizuálne" oddelenie jednotlivých častí
+XML dokumentu, napr. `<!-- Zoznam miestností -->`
+
+12. Upravte a rozšírte DTD aj XML. Použitím parametrických entít (parameter entities) a podmienených sekcií (conditional sections) deklarujte dva režimy tak, aby v štandardnom režime (`standardMode`) nebol element `description` súčasťou miestnosti (element `room`), a v podrobnom režime (`verboseMode`) bol súčasťou miestnosti. Aktivujte štandardný režim a upravte primerane XML dokument. [XML parameter entities](https://www.w3resource.com/xml/parameter-entities.php), [conditional sections](https://xmlwriter.net/xml_guide/conditional_section.shtml)
+
+
+**XPATH úlohy:** 
+
+[Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: world-of-health-v1.dtd
+
+1.
+	a. Vyberte všetkých vedúcich oddelení (`heads`).
+	b. Vyberte názvy (names) všetkých nemocníc, iba obsah.
+	c. Vyberte všetky krajiny (countries), z ktorých sú vedúci oddelení (heads), bez duplicít.
+	d. Vyberte meno vedúceho oddelenia s id "h1".
+
+2. Vyberte poštové smerovacie čísla (postal codes) všetkých vedúcich oddelení zo Slovenskej republiky.
+
+3. Vyberte `rate` hodnoty všetkých miestností (rooms) s urovňou komfortu  C (atribút `comfort`) zo všetkých oddelení (departments) okrem `d2`.
+
+4. Vyberte 3. vybavenie (`feature`) na 1. oddelení (`department`).
+
+5. Vyberte názvy oddelení (names), ktoré majú aspoň dve vybavenia (feature) a súčasne nemajú vedúceho (atribút `head`).
+
+6. Vyberte vedúcich oddelení, ktorí nie sú priradení k žiadnemu oddeleniu. 

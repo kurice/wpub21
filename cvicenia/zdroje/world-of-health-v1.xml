@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE world-of-health SYSTEM "world-of-health-v1.dtd">-->
+<world-of-health language="SK">
+
+<!-- List of hospitals -->
+<hospitals>
+<hospital>
+<name>Univerzitná nemocnica Bratislava - Ružinov</name>
+<email>hovorca@unb.sk</email>
+<phone>+421248234111</phone>
+<address>
+<street>Ružinovská 4810/6</street>
+<postalCode>82101</postalCode>
+<state>Bratislava</state>
+<country>Slovenská republika</country>
+</address>
+<employee>
+<firstName>Peter</firstName>
+<lastName>Veľký</lastName>
+</employee>
+<employee>
+<firstName>Martin</firstName>
+<lastName>Vysoký</lastName>
+</employee>
+<employee>
+<firstName>Fedor</firstName>
+<lastName>Malý</lastName>
+</employee>
+</hospital>
+</hospitals>
+
+<!-- List of heads (heads of deparments) -->
+<heads>
+<head idHead="h1">
+<name>MUDr. Adam Primárovský, PhD.</name>
+<address>
+<street>Vrchná 14</street>
+<postalCode>82101</postalCode>
+<state>Bratislava</state>
+<country>Slovenská republika</country>
+</address>
+</head>
+<head idHead="h2">
+<name>MUDr. Jozef Hlavný, CSc.</name>
+<address>
+<street>Ružinovská 13</street>
+<postalCode>82101</postalCode>
+<state>Bratislava</state>
+<country>Slovenská republika</country>
+</address>
+</head>
+<head idHead="h3">
+<name>MUDr. Rudolf Belaný, CSc.</name>
+<address>
+<street>Národní 10</street>
+<postalCode>01010</postalCode>
+<state>Praha</state>
+<country>Česká republika</country>
+</address>
+</head>
+<head idHead="h4">
+<name>MUDr. František Čižmár, CSc.</name>
+<address>
+<street>Drieňová 5</street>
+<postalCode>82103</postalCode>
+<state>Bratislava</state>
+<country>Slovenská republika</country>
+</address>
+</head>
+</heads>
+    
+<!-- List of departments -->
+<departments>
+		
+<department idDepartment="d1" head="h1">
+<name>Otorinolaryngologické oddelenie</name>
+<address>
+<street>Ružinovská 10</street>
+<state>Bratislava</state>
+<postalCode>82101</postalCode>
+</address>
+<numberOfRooms>5</numberOfRooms>
+<features>
+<feature>Endoskop</feature>
+<feature>CO2 laser</feature>
+<feature>Pulzometer</feature>
+</features>
+<employee>
+<firstName>Michal</firstName>
+<lastName>Horný</lastName>
+</employee>
+</department>
+
+<department idDepartment="d3">
+<name>Interná klinika</name>
+<address>
+<street>Ružinovská 16</street>
+<state>Bratislava</state>
+<postalCode>82101</postalCode>
+</address>
+<numberOfRooms>8</numberOfRooms>
+<features>
+<feature>TK Holter</feature>
+<feature>EKG Holter</feature>
+</features>
+</department>
+        
+</departments>
+    
+<!-- List of rooms -->
+<rooms>
+		
+<room idRoom="r1" department="d1" comfort="F">
+<name>A1</name>
+<rate>5</rate>
+<data>Malá izba, žiadne okná.</data>
+<record>
+<record>
+<date>2020-07-11</date><text>COVID prítomný.</text>
+</record>
+<record>
+<date>2020-07-12</date><text>Dezinfekcia vykonaná.</text>
+</record>
+</record>
+<record>
+<date>2020-08-21</date>
+<text>COVID opäť prítomný.</text>
+</record>
+</room>
+		
+<room idRoom="r2" department="d1" comfort="B">
+<name>A2</name>
+<rate>2</rate>
+<data>
+<description>Priestranná veľká izba, presvetlená.</description>
+Výhľad na les, 50 m&sup2;.
+<name>A2-1</name>
+<description>Samostatná kúpeľna a toaleta</description>
+&lt;button class=&quot;q-btn&quot;&gt;Click&lt;/button&gt;
+<![CDATA[
+<button class="q-btn">Click</span>
+                ]]>
+</data>
+<features>
+<feature>televízor</feature>
+<feature>chladnička</feature>
+<feature>klimatizácia</feature>
+</features>
+</room>
+
+<room idRoom="r3" department="d1" comfort="C">
+<name>A3</name>
+<rate>3</rate>
+<data>
+<description>Veľká izba, štandard</description>
+</data>
+<features>
+<feature>chladnička</feature>
+<feature>televízor</feature>
+</features>
+</room>
+
+<room idRoom="r4" department="d1" comfort="A">
+<name>A4</name>
+<rate>1</rate>
+<data>
+<description>Luxusná izba</description>
+</data>
+<features>
+<feature>koberec</feature>
+<feature>klimatizácia</feature>
+<feature>televízia</feature>
+</features>
+<room idRoom="r4a" department="d1" comfort="A">
+<name>A4a</name>
+<rate>1</rate>
+<data>
+<description>Kúpeľňa</description>
+</data>
+<features>
+<feature>vaňa</feature>
+<feature>rádio</feature>
+</features>
+<room idRoom="r4a1" department="d1" comfort="A">
+<name>A4a1</name>
+<rate>1</rate>
+<data>
+<description>WC</description>
+</data>
+<features>
+<feature>rádio</feature>
+<feature>bidet</feature>
+</features>
+</room>
+</room>
+<room idRoom="r4b" department="d1" comfort="A">
+<name>A4b1</name>
+<rate>2</rate>
+<data>
+<description>Samostatné WC</description>
+</data>
+<features>
+<feature>rádio</feature>
+<feature>bezbariérové</feature>
+</features>
+</room>
+</room>
+        
+</rooms>
+    
+</world-of-health>
+
