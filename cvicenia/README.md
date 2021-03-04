@@ -20,6 +20,8 @@ XML dokumentu, napr. `<!-- Zoznam miestností -->`
 
 **XPATH úlohy:** 
 
+**[[Prezentácia]](zdroje/cv2.pdf)**  
+
 [Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: world-of-health-v1.dtd  
 
 Nástroj: [XML Quire](http://qutoric.com/xmlquire/)   
