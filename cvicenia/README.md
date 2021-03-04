@@ -22,8 +22,8 @@ XML dokumentu, napr. `<!-- Zoznam miestností -->`
 
 [Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: world-of-health-v1.dtd
 
-Nástroj: (XML Quire)[http://qutoric.com/xmlquire/]
-Online nástroj: (XPather)[http://xpather.com/]
+Nástroj: [XML Quire](http://qutoric.com/xmlquire/)
+Online nástroj: [XPather](http://xpather.com/)
 
 1.
 	* Vyberte všetkých vedúcich oddelení (`heads`).
