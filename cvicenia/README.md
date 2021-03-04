@@ -3,6 +3,7 @@
 ## Cvičenie 2 (4.3.) ## 
 
 **Pokračovanie XML + DTD úlohy:** 
+
 9. Upravte a rozšírte DTD aj XML. Pridajte unikátne identifikátory k `heads`, `departments` a `rooms`, napr. element `head` bude mať identifikátor idHead="h1". Transformujte všetky existujúce referencie z mien (names) na tieto nové identifikátory, použite údajové typy `ID` a `IDREF`. Vyskúšajte narušiť referenčnú integritu.
 
 10. Upravte a rozšírte DTD aj XML. Vložte nasledujúci fragment do opisu (element `description`) niektorej z miestnosti (element `room`) tak, aby nebol interpretovaný ako XML. Použite pre to existujúce znakové entity (napr. pre znak '<' entitu &lt;).
@@ -20,6 +21,9 @@ XML dokumentu, napr. `<!-- Zoznam miestností -->`
 **XPATH úlohy:** 
 
 [Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: world-of-health-v1.dtd
+
+Nástroj: (XML Quire)[http://qutoric.com/xmlquire/]
+Online nástroj: (XPather)[http://xpather.com/]
 
 1.
 	* Vyberte všetkých vedúcich oddelení (`heads`).
