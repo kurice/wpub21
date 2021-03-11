@@ -39,7 +39,7 @@ XML dokumentu, napr. `<!-- Zoznam miestností -->`
 
 **[[Prezentácia]](zdroje/cv2.pdf)**  
 
-[Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: (world-of-health-v1.dtd)[zdroje/world-of-health-v1.dtd]  
+[Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: [world-of-health-v1.dtd](zdroje/world-of-health-v1.dtd)    
 
 Nástroj: [XML Quire](http://qutoric.com/xmlquire/)   
 Online nástroj: [XPather](http://xpather.com/)   
