@@ -28,7 +28,9 @@ Nástroj: [XML Quire](http://qutoric.com/xmlquire/)
 Online nástroj: [XPather](http://xpather.com/)   
 
 1.
-	* Vyberte všetkých vedúcich oddelení (`heads`).
+	* Vyberte všetkých vedúcich oddelení (`heads`).  
+       * napr.: `//head`  
+	   * napr.: `//child::head`  
 	* Vyberte názvy (names) všetkých nemocníc, iba obsah.
 	* Vyberte všetky krajiny (countries), z ktorých sú vedúci oddelení (heads), bez duplicít.
 	* Vyberte meno vedúceho oddelenia s id "h1".

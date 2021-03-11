@@ -27,6 +27,21 @@ Pre daný model definujte DTD (Document Type Definition) alebo XSD (XML Schema).
 **Termín odovzdania prvej časti prvého zadania:** 10.3. 2021 23:59 AIS. 
 Odovzdajte 2 súbory DTD/XSD a XML. Ak ste si vytvorili ako pomôcku class diagram, odovzdajte aj ten (class diagram sa nehodnotí).
 
+### Druhá časť (6 bodov)
+Nad XML dokumentom z prvej časti prvého zadania naformulujte 6 výrazov netriviálnych dopytov v jazyku XPath:  
+
+* predikát testujúci hodnotu atribútu,
+* predikát testujúci existenciu podriadeného elementu,
+* predikát testujúci neexistenciu podriadeného elementu,
+* predikát testujúci pozíciu,
+* predikát testujúci počet,
+* použijete niektorú z os: ancestor[-or-self], preceding[-sibling], following[-sibling].
+
+**Termín odovzdania druhej časti prvého zadania:** 24.3. 2021 23:59 AIS. 
+Odovzdáva sa jeden textový súbor so všetkými dopytmi + XML a DTD z prvej časti.
+Pri každom dopyte bude textové vysvetlenie/komentár (čo predmetný dopyt robí, čo je jeho výsledkom). 
+
+
 
 ## Autorstvo
 Je zakázané používať programy alebo časti projektov od iných študentov, alebo z minulého ročníka.
