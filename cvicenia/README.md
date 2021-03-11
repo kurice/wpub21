@@ -1,5 +1,22 @@
 # Cvičenia
 
+## Cvičenie 3 (11.3.) ## 
+
+**Úlohy:**  
+
+7. Vyberte miestnosti (rooms) s podpriemerným hodnotením (`rate` < ako priemer).
+
+8. Vyberte mená vedúcich oddelení (head), ktorí majú na oddelení (department) izbu (room) s vybavením (feature) "televízor". 
+
+9. Vyberte sumu z hodnotení (rate) miestností (rooms) s komfortom (atribút `comfort`) C alebo D z oddelení, ktorých vedúcim je "h1".
+
+10. Vyberte názvy (name) prvej a poslednej miestnosti v dokumente vrátane rekurzívne vnorených miestností.
+
+11. K danému identifikátoru (ako vstup) konkrétnej miestnosti, vyberte miestnosť, ktorá je v zmysle hierarchie na najvyššej úrovni od danej miestnosti. Napr.: vyberiete element `room` s názvom "A4" k identifikátoru "r4a1".
+
+12. Vyberte zoznam hodnôt `comfort` z miestností (rooms), ktoré neobsahujú iné miestnosti.
+
+
 ## Cvičenie 2 (4.3.) ## 
 
 **Pokračovanie XML + DTD úlohy:** 
@@ -22,7 +39,7 @@ XML dokumentu, napr. `<!-- Zoznam miestností -->`
 
 **[[Prezentácia]](zdroje/cv2.pdf)**  
 
-[Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: world-of-health-v1.dtd  
+[Dáta: world-of-health-v1.xml](zdroje/world-of-health-v1.xml), DTD: (world-of-health-v1.dtd)[zdroje/world-of-health-v1.dtd]  
 
 Nástroj: [XML Quire](http://qutoric.com/xmlquire/)   
 Online nástroj: [XPather](http://xpather.com/)   
@@ -32,18 +49,37 @@ Online nástroj: [XPather](http://xpather.com/)
        * napr.: `//head`  
 	   * napr.: `//child::head`  
 	* Vyberte názvy (names) všetkých nemocníc, iba obsah.
+	   * napr.: `/world-of-health/hospitals/hospital/name/text()`
+	   * napr.: `//hospital/name/text()`
 	* Vyberte všetky krajiny (countries), z ktorých sú vedúci oddelení (heads), bez duplicít.
+	   * napr.: `distinct-values(/world-of-health/heads/head/address/country)`
+       * napr.: `distinct-values(//head//country)`
+	   * napr.: `distinct-values(//head/address/country)`
 	* Vyberte meno vedúceho oddelenia s id "h1".
+	   * napr.: `//head[@idHead = "h1"]/name/text()`
+	   * napr.: `//head[./@idHead = "h1"]/name/text()`
+	   * napr.: `//head[self::node()/@idHead = "h1"]/name/text()`
+	   * napr.: `//head[attribute::idHead = "h1"]/name/text()`
 
-2. Vyberte poštové smerovacie čísla (postal codes) všetkých vedúcich oddelení zo Slovenskej republiky.
+2. Vyberte poštové smerovacie čísla (postal codes) všetkých vedúcich oddelení zo Slovenskej republiky.  
+  * napr.: `//head/address[country/text() = 'Slovenská republika']/postalCode`
+  * napr.: `//head/address[.//country = 'Slovenská republika']/postalCode`
 
 3. Vyberte `rate` hodnoty všetkých miestností (rooms) s urovňou komfortu  C (atribút `comfort`) zo všetkých oddelení (departments) okrem `d2`.
+  * napr.: `//room[@comfort = "C" and @department != "d2"]/rate/text()`
+  * napr.: `//rate[parent::room[@comfort = "C"] and parent::room[@department != "d2"]]/text()`
 
 4. Vyberte 3. vybavenie (`feature`) na 1. oddelení (`department`).
+  * napr.: `//department[1]/features/feature[3]`
+  * napr.: `//department[position() = 1]//feature[position() = 3]`
 
 5. Vyberte názvy oddelení (names), ktoré majú aspoň dve vybavenia (feature) a súčasne nemajú vedúceho (atribút `head`).
+  * napr.: `//department[not(@head) and count(features/feature) >= 2]/name`
+  * napr.: `//department[count(@head) = 0 and count(.//feature) >= 2]/name`
 
 6. Vyberte vedúcich oddelení, ktorí nie sú priradení k žiadnemu oddeleniu. 
+  * napr.: `//head[not(@idHead = //department/@head)]`
+
 
 ## Cvičenie 1 (25.2.) ## 
 

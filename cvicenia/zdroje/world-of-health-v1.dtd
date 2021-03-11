@@ -1,0 +1,74 @@
+<!ELEMENT world-of-health (hospitals, heads, departments, rooms)>
+<!ATTLIST world-of-health
+	language CDATA #FIXED "SK">
+
+<!ELEMENT hospitals (hospital*)>
+<!ELEMENT heads (head*)>
+<!ELEMENT departments (department*)>
+<!ELEMENT rooms (room, room+)>
+
+<!ELEMENT hospital (name, (
+	(address, email, phone) |
+	(address, phone, email) |
+	(email, address, phone) |
+	(email, phone, address) |
+	(phone, address, email) |
+	(phone, email, address)
+	), employee*)>
+
+<!ELEMENT employee (firstName, lastName)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+
+<!ELEMENT head (name, address)>
+<!ATTLIST head
+	idHead ID #REQUIRED>
+
+<!ENTITY % standardMode "INCLUDE">
+<!ENTITY % verboseMode "IGNORE">
+
+<![ %standardMode; [
+	<!ELEMENT department (name, address, numberOfRooms, features?, employee?)>
+	]]>
+
+<![ %verboseMode; [
+	<!ELEMENT department (name, address, description, numberOfRooms, features?, employee?)>
+	]]>
+
+<!ATTLIST department
+	idDepartment ID #REQUIRED
+	head IDREF #IMPLIED>
+
+<!ELEMENT room (name, rate, data, features?, record*, room*)>
+<!ATTLIST room
+	idRoom ID #REQUIRED
+	department IDREF #REQUIRED
+	comfort (A | B | C | D | E | F) "F">
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT numberOfRooms (#PCDATA)>
+<!ELEMENT rate (#PCDATA)>
+
+<!ELEMENT features (feature, feature, feature?, feature?, feature?)>
+<!ELEMENT feature (#PCDATA)>
+
+<!ELEMENT record ((date, text) | record+)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+
+<!ELEMENT description (#PCDATA | roomReference)*>
+<!ELEMENT roomReference (#PCDATA)>
+<!ATTLIST roomReference
+	roomName IDREF #REQUIRED>
+
+<!ELEMENT data ANY>
+
+<!ELEMENT address (street, ((postalCode, state, country) | (state, postalCode)))>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT postalCode (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+
+<!ENTITY sup2 "²">
