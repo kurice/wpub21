@@ -1,5 +1,10 @@
 # Cvičenia
 
+## Cvičenie 4 (18.3.) ## 
+**[XSLT - úvod](zdroje/cv3.pdf)**   
+
+* Vyberte si jazyk/framework a rozbehajte si runtime prostredie, v ktorom budete realizovať XSL transformácie (XSLT). Vyskúšajte si transformáciu XML dokumentu do HTML dokumentu: [dáta](zdroje/data.xml), [xslt](zdroje/hello.xsl)
+
 ## Cvičenie 3 (11.3.) ## 
 
 **Úlohy:**  
