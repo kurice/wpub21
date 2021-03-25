@@ -6,25 +6,25 @@ Na cvičeniach budú študenti riešiť 3 zadania.
 
 ## Zadanie 2 (10 bodov)
 Pre XML dokument z 1. zadania vytvorte XSLT skript, ktorý bude obsahovať:
-	* aspoň 5 zmysluplných šablón, ktoré sa navzájom volajú inštrukciami `xsl:apply-templates` alebo `xsl:call-template`,
-	* nepomenované aj pomenované šablóny (`xsl:template match="..."`, `xsl:template name="..."`),
-	* použitie režimov (atribút `mode`),
-	* inštrukcie podmienok (`xsl:if`, `xsl:choose` + `xsl:when`),
-	* cykly (`xsl:for-each`),
-	* premenné: (`xsl:variable`),
-    * parametre: (`xsl:param`, `xsl:with-param`),
-	* inštrukcie pre generovanie výstupu (`xsl:element`, `xsl:attribute`, `xsl:value-of`, `xsl:text`),
-	* inštrukcie pre kopírovanie (`xsl:copy`, `xsl:copy-of`),
+* aspoň 5 zmysluplných šablón, ktoré sa navzájom volajú inštrukciami `xsl:apply-templates` alebo `xsl:call-template`,
+* nepomenované aj pomenované šablóny (`xsl:template match="..."`, `xsl:template name="..."`),
+* použitie režimov (atribút `mode`),
+* inštrukcie podmienok (`xsl:if`, `xsl:choose` + `xsl:when`),
+* cykly (`xsl:for-each`),
+* premenné: (`xsl:variable`),
+* parametre: (`xsl:param`, `xsl:with-param`),
+* inštrukcie pre generovanie výstupu (`xsl:element`, `xsl:attribute`, `xsl:value-of`, `xsl:text`),
+* inštrukcie pre kopírovanie (`xsl:copy`, `xsl:copy-of`),
 	
 Aspoň dva XPath výrazy použité pri volaní základných šablón cez inštrukciu `xsl:apply-templates select=""` musia spĺňať podmienku pre XPath výrazy z 2. časti 1. zadania, a teda pojde o netriviálne XPath výrazy.  
 
 Výstupným formátom transformácie je HTML dokument. Všetky transformácie musia byť podrobne okomentované.
 
 Pre výstupný HTML dokument definujte kaskádové štýly (CSS), zvlášť pre media "screen" a pre media "print". Tieto výstupy majú svoje špecifiká.
-	* Dokument v režime "screen" musí byť responzívny, dobre sa čítať ako na malom displeji mobilného telefónu, tak aj na veľkom monitore. 
-	* Musia byť použité základné vlastnosti: veľkosť písma, farba písma/pozadia, štýl a akcent písma (weight), zarovnanie textu. 
-	* Musíte vhodne pracovať s bielym priestorom (white space) pre lepšiu čitateľnosť (napr. medzera medzi riadkami, dĺžka riadkov), zoskupenie logických častí (border, margin, padding). 
-	* Vizuálna reprezentácia musí podporovať logickú štruktúru dokumentov.
+* Dokument v režime "screen" musí byť responzívny, dobre sa čítať ako na malom displeji mobilného telefónu, tak aj na veľkom monitore. 
+* Musia byť použité základné vlastnosti: veľkosť písma, farba písma/pozadia, štýl a akcent písma (weight), zarovnanie textu. 
+* Musíte vhodne pracovať s bielym priestorom (white space) pre lepšiu čitateľnosť (napr. medzera medzi riadkami, dĺžka riadkov), zoskupenie logických častí (border, margin, padding). 
+* Vizuálna reprezentácia musí podporovať logickú štruktúru dokumentov.
 	
 **Termín odovzdania druhého zadania:** 14.4. 2021 23:59 AIS. 
 Odovzdáva sa XML súbor s údajmi, XSLT skript a CSS súbor(y).

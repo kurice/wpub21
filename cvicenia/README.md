@@ -1,6 +1,8 @@
 # Cvičenia
 
 ## Cvičenie 5 (25.3.) ##
+**[XSLT pokračovanie](zdroje/cv6.pdf)**   
+
 Rozšírte XSLT skript z predošlého cvičenia:
 
 1. Vytvorte usporiadaný zoznam miestností. Nahraďte `ID` a `NAME` zodpovedajúcimi hodnotami. Vytvorte nepomenovanú šablónu pre `room` elementy (nevytvárajte žiadnu inú šablónu). Použite inštrukcie `xsl:element`, `xsl:attribute` a `xsl:text`. 
