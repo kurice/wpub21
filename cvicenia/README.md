@@ -1,7 +1,7 @@
 # Cvičenia
 
 ## Cvičenie 5 (25.3.) ##
-**[XSLT pokračovanie](zdroje/cv6.pdf)**   
+**[XSLT pokračovanie prezentácia](zdroje/cv6.pdf)**   
 
 Rozšírte XSLT skript z predošlého cvičenia:
 
@@ -61,7 +61,7 @@ Použite inštrukciu `xsl:choose`, napomocná bude funkcia `contains()`.
 	
 
 ## Cvičenie 4 (18.3.) ## 
-**[XSLT - úvod](zdroje/cv3.pdf)**   
+**[XSLT - úvod prezentácia](zdroje/cv3.pdf)**   
 
 * Vyberte si jazyk/framework a rozbehajte si runtime prostredie, v ktorom budete realizovať XSL transformácie (XSLT). Vyskúšajte si transformáciu XML dokumentu do HTML dokumentu: [dáta](zdroje/data.xml), [xslt](zdroje/hello.xsl)
 
