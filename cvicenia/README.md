@@ -45,7 +45,7 @@ Nastavte farbu pozadania všetkým nepárnym riadkom.
 <tr class="even">...</tr>
 ```
 
-4. Upravte "Table of Departments". Nahraďte stĺpec `Head ID` stĺpcom `Head name`, a teda ku každému oddeleniu uveďte meno vedúceho. Ak oddelenie nemá vedúceho, alebo meno vedúceho chýba, vypíšte `<i>Neznámy<i>`. 
+4. Upravte "Table of Departments". Nahraďte stĺpec `Head ID` stĺpcom `Head name`, a teda ku každému oddeleniu uveďte meno vedúceho. Ak oddelenie nemá vedúceho, alebo meno vedúceho chýba, vypíšte `<i>Neznámy</i>`. 
 Pre tento účel vytvorte pomenovanú šablónu. 
 	* Pri volaní použite parameter `xsl:with-param` na špecifikovanie vstupného identifikátora vedúceho oddelenia. 
 	* Ak je šablóna volaná bez parametra, vyberte identifikátor vedúceho z predmetných údajov oddelenia.
