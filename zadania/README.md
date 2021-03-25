@@ -21,12 +21,10 @@ Aspoň dva XPath výrazy použité pri volaní základných šablón cez inštru
 Výstupným formátom transformácie je HTML dokument. Všetky transformácie musia byť podrobne okomentované.
 
 Pre výstupný HTML dokument definujte kaskádové štýly (CSS), zvlášť pre media "screen" a pre media "print". Tieto výstupy majú svoje špecifiká. 
-
 	* Dokument v režime "screen" musí byť responzívny, dobre sa čítať ako na malom displeji mobilného telefónu, tak aj na veľkom monitore. 
 	* Musia byť použité základné vlastnosti: veľkosť písma, farba písma/pozadia, štýl a akcent písma (weight), zarovnanie textu. 
 	* Musíte vhodne pracovať s bielym priestorom (white space) pre lepšiu čitateľnosť (napr. medzera medzi riadkami, dĺžka riadkov), zoskupenie logických častí (border, margin, padding). 
 	* Vizuálna reprezentácia musí podporovať logickú štruktúru dokumentov.
-
 	
 **Termín odovzdania druhého zadania:** 14.4. 2021 23:59 AIS. 
 Odovzdáva sa XML súbor s údajmi, XSLT skript a CSS súbor(y).
