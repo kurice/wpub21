@@ -11,7 +11,7 @@ Rozšírte XSLT skript z predošlého cvičenia:
 ...
 </ol>
 ```
-(RIEŠENIE)[zdroje/xslt-p1.xsl]
+[RIEŠENIE](zdroje/xslt-p1.xsl)
 
 2. Pridajte nový stĺpec do tabuľky "Table of Departments". Pre každé oddelenie `Department` vytvorte neusporiadaný zoznam referencií na izby `Rooms`. Použite nepomenovanú šabĺonu spolu s atribútom `mode`.
 ```html
@@ -48,7 +48,7 @@ Pre tento účel vytvorte pomenovanú šablónu.
 	* Pri volaní použite parameter `xsl:with-param` na špecifikovanie vstupného identifikátora vedúceho oddelenia. 
 	* Ak je šablóna volaná bez parametra, vyberte identifikátor vedúceho z predmetných údajov oddelenia.
 
-5. Upravte "Table of Departments". Pridajte stĺpec, v ktorom bude zoznam vybavenia, a teda čiarkou oddelené `feaatures`, napr.: "CO2 laser, Endoskop, Pulzomer". Usporiadajte položky zoznamu v abecednom poradí. Nevytvárajte nové šablóny, použite inštrukciu `xsl:for-each`.
+5. Upravte "Table of Departments". Pridajte stĺpec, v ktorom bude zoznam vybavenia, a teda čiarkou oddelené `features`, napr.: "CO2 laser, Endoskop, Pulzomer". Usporiadajte položky zoznamu v abecednom poradí. Nevytvárajte nové šablóny, použite inštrukciu `xsl:for-each`.
 
 6. Pridajte v XML súbore k elementom `feature` v oddeleniach atribút `type` s náhodne priradenými hodnotami z množiny ["t1", "t2", "t3"], pričom niektoré vybavenia môžu mať viacero typov, napr.: `<feature type="t1 t3">Endoskop</feature>`. Upravte spôsob, akým sú vypísané vybavenia:
 	* všetky vybavenia, ktoré majú priradený `type="t1"`a žiaden iný typ sú vypísané modrou farbou, a teda `<span style="color: blue;">...</span>` (príp. si definujte triedu),
