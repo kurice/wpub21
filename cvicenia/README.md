@@ -10,6 +10,7 @@
 
 Rozšírte XSLT skript z predošlého cvičenia:
 
+### Pr. 1 ###
 1. Vytvorte usporiadaný zoznam miestností. Nahraďte `ID` a `NAME` zodpovedajúcimi hodnotami. Vytvorte nepomenovanú šablónu pre `room` elementy (nevytvárajte žiadnu inú šablónu). Použite inštrukcie `xsl:element`, `xsl:attribute` a `xsl:text`. 
 ```html
 <h2>List of Rooms</h2>
@@ -18,8 +19,10 @@ Rozšírte XSLT skript z predošlého cvičenia:
 ...
 </ol>
 ```
-[RIEŠENIE](zdroje/xslt-p1.xsl)
+  
+[RIEŠENIE](zdroje/xslt-p1.xsl)  
 
+### Pr. 2 ###
 2. Pridajte nový stĺpec do tabuľky "Table of Departments". Pre každé oddelenie `Department` vytvorte neusporiadaný zoznam referencií na izby `Rooms`. Použite nepomenovanú šabĺonu spolu s atribútom `mode`.
 ```html
 ...
@@ -31,8 +34,10 @@ Rozšírte XSLT skript z predošlého cvičenia:
 </td>
 ...
 ```
-[RIEŠENIE](zdroje/xslt-p2.xsl)
+  
+[RIEŠENIE](zdroje/xslt-p2.xsl)  
 
+### Pr. 3 ###
 3. Integrujte nasledujúci kaskádový štýl (CSS) do `head` elementu:
 ```html
 <style>
@@ -50,24 +55,30 @@ Nastavte farbu pozadania všetkým nepárnym riadkom.
 ```html
 <tr class="even">...</tr>
 ```
-[RIEŠENIE](zdroje/xslt-p3.xsl)
+   
+[RIEŠENIE](zdroje/xslt-p3.xsl)  
 
+### Pr. 4 ###
 4. Upravte "Table of Departments". Nahraďte stĺpec `Head ID` stĺpcom `Head name`, a teda ku každému oddeleniu uveďte meno vedúceho. Ak oddelenie nemá vedúceho, alebo meno vedúceho chýba, vypíšte `<i>Neznámy</i>`. 
 Pre tento účel vytvorte pomenovanú šablónu. 
 	* Pri volaní použite parameter `xsl:with-param` na špecifikovanie vstupného identifikátora vedúceho oddelenia. 
 	* Ak je šablóna volaná bez parametra, vyberte identifikátor vedúceho z predmetných údajov oddelenia.
-[RIEŠENIE](zdroje/xslt-p4.xsl)
+   
+[RIEŠENIE](zdroje/xslt-p4.xsl)   
 
+### Pr. 5 ###
 5. Upravte "Table of Departments". Pridajte stĺpec, v ktorom bude zoznam vybavenia, a teda čiarkou oddelené `features`, napr.: "CO2 laser, Endoskop, Pulzomer". Usporiadajte položky zoznamu v abecednom poradí. Nevytvárajte nové šablóny, použite inštrukciu `xsl:for-each`.
-[RIEŠENIE](zdroje/xslt-p5.xsl)
+   
+[RIEŠENIE](zdroje/xslt-p5.xsl)  
 
-
+### Pr. 6 ###
 6. Pridajte v XML súbore k elementom `feature` v oddeleniach atribút `type` s náhodne priradenými hodnotami z množiny ["t1", "t2", "t3"], pričom niektoré vybavenia môžu mať viacero typov, napr.: `<feature type="t1 t3">Endoskop</feature>`. Upravte spôsob, akým sú vypísané vybavenia:
 	* všetky vybavenia, ktoré majú priradený `type="t1"`a žiaden iný typ sú vypísané modrou farbou, a teda `<span style="color: blue;">...</span>` (príp. si definujte triedu),
 	* všetky vybavenia, ktoré majú 1 a viac typov, pričom aspoň jeden z nich  je `type="t2"`sú vypísané červenou farbou,
 	* v ostatných prípadoch je pôvodná farba.
 Použite inštrukciu `xsl:choose`, napomocná bude funkcia `contains()`.
-[RIEŠENIE](zdroje/xslt-p6.xsl)
+   
+[RIEŠENIE](zdroje/xslt-p6.xsl)  
 	
 
 ## Cvičenie 4 (18.3.) ## 
