@@ -4,6 +4,28 @@ Na cvičeniach budú študenti riešiť 3 zadania.
 * Druhé zadanie za 10 bodov
 * Tretie zadanie za 10 bodov
 
+## Zadanie 3 (10 bodov)
+Pre XML dokument z 1. zadania vymyslite (štatistickú) agregáciu dát.
+Napríklad, v modeli, ktorý obsahuje albumy s pesničkami a ich hodnoteniami môžeme spočítať, koľko pesničiek za rok 2019 naprieč všetkými albumami malo hodnotenie (rating) 1, 2, 3, 4, resp. 5. Výstupom sú potom dvojice label:value, a teda R1:10 (Hodnotenie/rating 1 má 10 pesničiek), R2:7, R3:5, R4:3, R5:2. Agregáciu z vašich dát získajte použitím jazyka XSLT. V prípade potreby môžete pôvodný XML dokument doplniť o ďalšie dáta.
+
+Vytvorené agregácie budú slúžiť ako vstupné dáta na ich vykreslenie do grafu, ktorý vytvoríte vo formáte SVG. SVG graf musí byť vytvorený dynamicky na základe vstupného XML, použitím čisto jazyka XSLT.
+
+Vyberte si jeden z dvoch typov grafov, a to buď stĺpcový, alebo čiarový (na základe vhodnosti pre interpretáciu vašich dát). Graf musí mať osi X a Y, štítky na osi X aj Y, pomenovanie osi X aj Y, vodiace čiary.
+
+Všetky transformácie musia byť okomentované.
+
+Ilustrácia výstupného stĺpcového grafu:
+![Ilustrácia stĺpcového grafu](../cvicenia/zdroje/bar-chart.png "Ilustrácia stĺpcového grafu")
+
+Ilustrácia výstupného čiarového grafu:
+![Ilustrácia čiarového grafu](../cvicenia/zdroje/line-chart.png "Ilustrácia čiarový graf")
+
+
+**Termín odovzdania 3. zadania:** 5. 5. 2021 23:59 AIS. 
+Odovzdajte 2 súbory, a to XML súbor a XSLT transformáciu, ktorej výstupom je graf vo formáte SVG. 
+
+
+
 ## Zadanie 2 (10 bodov)
 Pre XML dokument z 1. zadania vytvorte XSLT skript, ktorý bude obsahovať:
 * aspoň 5 zmysluplných šablón, ktoré sa navzájom volajú inštrukciami `xsl:apply-templates` alebo `xsl:call-template`,

@@ -1,5 +1,19 @@
 # Cvičenia
 
+## Cvičenie 7 (15.4.) ##
+### Pr. 1 ###
+1. Uvažujte model albumov a pesničiek, ktoré majú hodnotenia z intervalu <1,5>. Uvažujte dáta (dvojice), ktoré sú výstupom štatistickej agregácie nad daným modelom, a to R1:10 (hodnotenie/rating 1 má 10 pesničiek), R2:7, R3:5, R4:3, R5:2. Vytvorte pre tieto dáta stĺpcový graf vo formáte SVG:
+
+![Ilustrácia stĺpcového grafu](zdroje/bar-chart.png "Ilustrácia stĺpcového grafu")
+
+[RIEŠENIE](zdroje/bar-chart.svg)  
+
+### Pr. 2 ###
+Uvažujte dáta o vývoji populácie v Rokforte od r. 1500 po r. 2021. Vytvorte čiarový graf vo formáte SVG ako ilustruje daný obrázok:
+
+![Ilustrácia čiarový graf](zdroje/line-chart.png "Ilustrácia čiarového grafu")
+
+
 ## Cvičenie 6 (1.4.) ##
 **[CSS](zdroje/wtech-css.pdf)** 
 
