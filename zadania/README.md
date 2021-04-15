@@ -14,15 +14,15 @@ Vyberte si jeden z dvoch typov grafov, a to buď stĺpcový, alebo čiarový (na
 
 Všetky transformácie musia byť okomentované.
 
+**Termín odovzdania 3. zadania:** 5. 5. 2021 23:59 AIS. 
+Odovzdajte 2 súbory, a to XML súbor a XSLT transformáciu, ktorej výstupom je graf vo formáte SVG. 
+
+
 Ilustrácia výstupného stĺpcového grafu:
 ![Ilustrácia stĺpcového grafu](../cvicenia/zdroje/bar-chart.png "Ilustrácia stĺpcového grafu")
 
 Ilustrácia výstupného čiarového grafu:
 ![Ilustrácia čiarového grafu](../cvicenia/zdroje/line-chart.png "Ilustrácia čiarový graf")
-
-
-**Termín odovzdania 3. zadania:** 5. 5. 2021 23:59 AIS. 
-Odovzdajte 2 súbory, a to XML súbor a XSLT transformáciu, ktorej výstupom je graf vo formáte SVG. 
 
 
 
