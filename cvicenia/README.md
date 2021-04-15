@@ -1,6 +1,8 @@
 # Cvičenia
 
 ## Cvičenie 7 (15.4.) ##
+**[SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)**
+
 ### Pr. 1 ###
 1. Uvažujte model albumov a pesničiek, ktoré majú hodnotenia z intervalu <1,5>. Uvažujte dáta (dvojice), ktoré sú výstupom štatistickej agregácie nad daným modelom, a to R1:10 (hodnotenie/rating 1 má 10 pesničiek), R2:7, R3:5, R4:3, R5:2. Vytvorte pre tieto dáta stĺpcový graf vo formáte SVG:
 
