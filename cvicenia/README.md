@@ -5,7 +5,7 @@
 * [WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
 * [NVDA Screen Reader - windows](https://www.nvaccess.org/download/), Voiceover pre Mac 
 * [NVDA Keyboard shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
-* [ARIA Landmarks / HTML5 Sectioning Elements]
+* [ARIA Landmarks / HTML5 Sectioning Elements](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/HTML5.html)
   * NVDA caste skratky:
      * CTRL + ALT + N spustenie
 	 * D prechod na další landmark
