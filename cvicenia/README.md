@@ -1,5 +1,25 @@
 # Cvičenia
 
+## Cvičenie 8 (29.4.) ##
+* [Prístupnosť - Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)
+* [WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
+* [NVDA Screen Reader - windows](https://www.nvaccess.org/download/), Voiceover pre Mac 
+* [NVDA Keyboard shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
+* [ARIA Landmarks / HTML5 Sectioning Elements]
+  * NVDA caste skratky:
+     * CTRL + ALT + N spustenie
+	 * D prechod na další landmark
+	 * SHIFT + D návrat na predošlý landmark
+	 * H prechod na další nadpis
+	 * SHIFT + H návrat na predošlý nadpis
+	 * ŠIPKA DOLE/HORE krokové čítanie obsahu v danej sekcii/landmarku
+	 * CTRL zastavenia rozprávania
+	 * TAB prechod na ďalšiu "focusable" položku
+* [WAI-ARIA Practices, design patterns and widgets](https://www.w3.org/TR/wai-aria-practices-1.1/#aria_ex)
+* Porovnajte [WEB1](https://mdn.github.io/learning-area/accessibility/aria/website-no-roles/) vs [WEB2](https://mdn.github.io/learning-area/accessibility/aria/website-aria-roles/) vs [slovensko.sk](https://www.slovensko.sk/sk/titulna-stranka) alebo epobocka, ..., sme.sk
+* Porovnajte [Date picker ARIA Dialog design pattern + grid pattern](https://www.w3.org/TR/wai-aria-practices-1.1/examples/dialog-modal/datepicker-dialog.html) vs [Quasar date picker](https://quasar.dev/vue-components/date#multiple-selection) 
+
+
 ## Cvičenie 7 (15.4.) ##
 **[SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)**
 
